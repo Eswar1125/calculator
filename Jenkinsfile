@@ -22,7 +22,7 @@ pipeline{
         success{
             echo'Build successful'
         }
-        faliure{
+        failure{
             echo'Build failure'
         }
     }
